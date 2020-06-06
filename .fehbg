@@ -1,0 +1,2 @@
+#!/bin/sh
+'feh' '--auto-zoom' '--bg-center' '--randomize' '/home/mars/Pictures/wallpapers/0.jpg' '/home/mars/Pictures/wallpapers/1.jpg' '/home/mars/Pictures/wallpapers/2.jpg' '/home/mars/Pictures/wallpapers/3.jpg' '/home/mars/Pictures/wallpapers/4.jpg' '/home/mars/Pictures/wallpapers/5.jpg' '/home/mars/Pictures/wallpapers/6.jpg' '/home/mars/Pictures/wallpapers/7.jpg' '/home/mars/Pictures/wallpapers/8.jpg' '/home/mars/Pictures/wallpapers/9.jpg' 
