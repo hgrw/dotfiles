@@ -126,7 +126,7 @@ bindsym Mod4+minus scratchpad show
 # define workspaces
 set $workspace1 "1: Home "
 set $workspace2 "2: Browser "
-set $workspace3 "3: VS Code "
+set $workspace3 "3: Code "
 set $workspace4 "4: CCS "
 set $workspace7 "7: Media "
 set $workspace8 "8: Word "
@@ -160,7 +160,7 @@ bindsym Mod4+Shift+0 move container to workspace $workspace0
 
 # set up workspaces on execution of scripts
 assign [class="Code"] $workspace3
-assign [class="jetbrains-pycharm"] $workspace4
+assign [class="Code Composer Studio"] $workspace4
 assign [class="vlc"] $workspace7
 assign [class="libreoffice-writer"] $workspace8
 assign [class="libreoffice-calc"] $workspace9
@@ -244,13 +244,15 @@ bar {
 
 exec xautolock -time 10 -locker '~/.config/i3/bin/fuzzy_lock.sh' &
 
-exec --no-startup-id "compton --config /dev/null -i 0.9 --inactive-dim 0.1 --mark-ovredir-focused true --opacity-rule 100:name *= 'i3lock'"
+#exec --no-startup-id "compton --config /dev/null -i 0.9 --inactive-dim 0.1 --mark-ovredir-focused true"
+#exec --no-startup-id "compton --config /dev/null -i 0.9 --inactive-dim 0.1 --mark-ovredir-focused true --opacity-rule 100:name *= 'i3lock'"
+exec --no-startup-id "compton --config /dev/null -i 0.9 --inactive-dim 0.1"
 
 # Make default startup window a terminal session
 exec --no-startup-id i3-msg "workspace $workspace1; append_layout $HOME/.config/i3/layouts/workspace-1.json" 
 
 #exec $HOME/.config/i3/bin/load-layout1.sh
-exec google-chrome & 
+exec brave-browser & 
 exec gnome-terminal --class news -e 'newsboat -r'
 exec gnome-terminal --class htop -e htop
 exec gnome-terminal --class terminal 
