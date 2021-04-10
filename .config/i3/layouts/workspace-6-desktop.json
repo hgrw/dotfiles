@@ -1,0 +1,47 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1041,
+       "width": 1917,
+       "x": 1533,
+       "y": 49
+    },
+    "name": "New Tab - Brave",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Brave\\-browser$",
+       // "instance": "^brave\\-browser$",
+       // "title": "^New\\ Tab\\ \\-\\ Brave$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 708,
+       "width": 1032,
+       "x": 1032,
+       "y": 0
+    },
+    "name": "Chat | Microsoft Teams",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Microsoft\\ Teams\\ \\-\\ Preview$",
+       // "instance": "^microsoft\\ teams\\ \\-\\ preview$",
+       // "title": "^Chat\\ \\|\\ Microsoft\\ Teams$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
