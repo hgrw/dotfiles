@@ -194,6 +194,9 @@ exec feh --auto-zoom --bg-center --randomize ~/Pictures/wallpapers/*
 # start rofi (a program launcher)
 bindsym Mod4+d exec rofi -location 0 -lines 3 -show drun -modi drun -config ~/.config/i3/rofi/config
 
+# start network-manager applet
+exec --no-startup-id nm-applet --sm-disable
+
 # window colors
 #                       border              background         text                 indicator
 client.focused          $bg-color           $bg-color          $text-color          #00ff00
