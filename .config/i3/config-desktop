@@ -210,6 +210,7 @@ set $urgent-bg-color     #E53935
 
 # set background image
 exec feh --auto-zoom --bg-center --randomize ~/Pictures/wallpapers/*
+#exec feh --auto-zoom --bg-center --no-xinerama --randomize ~/Pictures/wallpapers_large/*
 
 # start rofi (a program launcher)
 bindsym $mod+d exec '.config/rofi/launchers/type-6/launcher.sh'
